@@ -60,6 +60,10 @@ const GuestForm: FunctionComponent<GuestFormProps & WithLanguageProps & FormikPr
                 }
             >
                 <p>
+                    This is a custom Checkout using the 
+                        <a href="https://github.com/bigcommerce/checkout-js">Open Source Checkout</a>
+                </p>
+                <p>
                     <TranslatedHtml id="customer.checkout_as_guest_text" />
                 </p>
 
